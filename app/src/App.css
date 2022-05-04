@@ -1,0 +1,35 @@
+.App-bg {
+  background-color: #282c34;
+  display: flex;
+  height: 100vh;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 10px;
+  grid-auto-rows: 1fr 1fr;
+}
+
+.Grid {
+  background-color: #61dafb;
+  height: auto;
+  width: auto;
+  border-radius: 3%;
+}
+
+.Grid-label {
+  display: inline-block;
+}
+
+.Filter {
+  width: 1fr;
+  display: inline-block;
+}
+
+.Form {
+  display:flex;
+  flex-direction: row;
+}
+
+.Services-thinglabel {
+  background-color: #282c34;
+}
